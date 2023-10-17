@@ -1,7 +1,7 @@
 object Form_UsedUnits: TForm_UsedUnits
   Left = 540
   Top = 138
-  Width = 640
+  Width = 532
   Height = 783
   Caption = 'Copy Used Units'
   Color = clBtnFace
@@ -21,8 +21,8 @@ object Form_UsedUnits: TForm_UsedUnits
   object PageControl1: TPageControl
     Left = 0
     Top = 0
-    Width = 632
-    Height = 696
+    Width = 516
+    Height = 688
     ActivePage = TabSheet_UsedUnits
     Align = alClient
     TabOrder = 0
@@ -30,18 +30,18 @@ object Form_UsedUnits: TForm_UsedUnits
     object TabSheet_UsedUnits: TTabSheet
       Caption = 'Used Units'
       DesignSize = (
-        624
-        668)
+        508
+        660)
       object Panel3: TPanel
         Left = 0
         Top = 0
-        Width = 624
+        Width = 508
         Height = 56
         Align = alTop
         BevelOuter = bvNone
         TabOrder = 0
         DesignSize = (
-          624
+          508
           56)
         object Label2: TLabel
           Left = 8
@@ -60,7 +60,7 @@ object Form_UsedUnits: TForm_UsedUnits
         object Edit_MainProgram: TEdit
           Left = 112
           Top = 8
-          Width = 473
+          Width = 365
           Height = 21
           Anchors = [akLeft, akTop, akRight]
           TabOrder = 0
@@ -68,7 +68,7 @@ object Form_UsedUnits: TForm_UsedUnits
           OnChange = Edit_MainProgramChange
         end
         object Button_MainProgram: TButton
-          Left = 590
+          Left = 482
           Top = 8
           Width = 25
           Height = 21
@@ -106,7 +106,7 @@ object Form_UsedUnits: TForm_UsedUnits
         Left = 0
         Top = 56
         Width = 193
-        Height = 612
+        Height = 604
         Align = alLeft
         BevelOuter = bvNone
         TabOrder = 1
@@ -114,7 +114,7 @@ object Form_UsedUnits: TForm_UsedUnits
           Left = 0
           Top = 0
           Width = 193
-          Height = 612
+          Height = 604
           Align = alClient
           ItemHeight = 13
           TabOrder = 0
@@ -125,7 +125,7 @@ object Form_UsedUnits: TForm_UsedUnits
         Left = 193
         Top = 56
         Width = 11
-        Height = 612
+        Height = 604
         Align = alLeft
         BevelOuter = bvNone
         TabOrder = 2
@@ -134,15 +134,16 @@ object Form_UsedUnits: TForm_UsedUnits
         Left = 204
         Top = 56
         Width = 193
-        Height = 612
+        Height = 604
         Align = alLeft
+        Anchors = [akLeft, akTop, akRight, akBottom]
         ItemHeight = 13
         Sorted = True
         TabOrder = 3
         OnClick = lbUsedUnitsClick
       end
       object Button_Begin: TButton
-        Left = 546
+        Left = 430
         Top = 56
         Width = 75
         Height = 25
@@ -158,12 +159,12 @@ object Form_UsedUnits: TForm_UsedUnits
         Left = 0
         Top = 0
         Width = 201
-        Height = 668
+        Height = 660
         Align = alLeft
         TabOrder = 0
         object Panel8: TPanel
           Left = 1
-          Top = 637
+          Top = 629
           Width = 199
           Height = 30
           Align = alBottom
@@ -205,7 +206,7 @@ object Form_UsedUnits: TForm_UsedUnits
           Left = 1
           Top = 31
           Width = 199
-          Height = 606
+          Height = 598
           Align = alClient
           ItemHeight = 13
           TabOrder = 2
@@ -215,7 +216,7 @@ object Form_UsedUnits: TForm_UsedUnits
         Left = 201
         Top = 0
         Width = 80
-        Height = 668
+        Height = 660
         Align = alLeft
         BevelInner = bvRaised
         BevelOuter = bvLowered
@@ -356,7 +357,7 @@ object Form_UsedUnits: TForm_UsedUnits
         Left = 0
         Top = 0
         Width = 273
-        Height = 668
+        Height = 660
         Align = alLeft
         BevelOuter = bvNone
         TabOrder = 2
@@ -364,7 +365,7 @@ object Form_UsedUnits: TForm_UsedUnits
           Left = 0
           Top = 0
           Width = 273
-          Height = 668
+          Height = 660
           Align = alClient
           ItemHeight = 13
           TabOrder = 0
@@ -375,8 +376,8 @@ object Form_UsedUnits: TForm_UsedUnits
   end
   object Panel1: TPanel
     Left = 0
-    Top = 696
-    Width = 632
+    Top = 688
+    Width = 516
     Height = 36
     Align = alBottom
     BevelOuter = bvNone
@@ -389,7 +390,7 @@ object Form_UsedUnits: TForm_UsedUnits
       Caption = 'lblNowProcessing'
     end
     object Panel2: TPanel
-      Left = 462
+      Left = 346
       Top = 0
       Width = 170
       Height = 36
